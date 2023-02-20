@@ -1,0 +1,135 @@
+// seção 2 - Cypress Básico
+
+Nessa aula nós vamos trabalhar na configuração do Ambiente para podermos trabalhar com um site.
+Então o que nós precisamos ter um ambiente do site por isso completa.
+Inicialmente vamos precisar ter
+de Jesse e quem vai interpretar os arquivos Javascript.
+Quem vai fazer toda a execução e também junto dele vem o imprime e vai fazer o gerenciamento dos nossos
+pacotes.
+Em seguida nós vamos precisar de algum editor de texto e aqui estou recomendando o VS Couch exausto
+de Cold e por fim claro mas vamos criar o nosso projeto com o site.
+Para esses dois primeiros passos eu não vou entrar muito em detalhes aqui porque já existe um outro
+curso chamado produtividade.
+Converse com esse curso.
+Ele está gratuito aqui na plataforma pode procurar por ele que você vai encontrar.
+Caso queira um link direto vai na minha página WC
+aqui no ponto M vai ter a relação de todos meus cursos inclusive este.
+Eu tenho um link para você simplesmente entrar no curso vai precisar pagar nada e esse curso é interessante
+porque ele cobre a instalação do nude de alguns detalhes falando sobre plataformas caso seja o Windows
+li aqui e também fala sobre o houvesse com o de não só instalação porque a instalação desses dois era
+bem básicas.
+Felizmente nesse negócio fiz mas também conta de algumas configurações para caso houvesse Cloud.
+A questão do ambiente e das cores das fontes de atalhos.
+Enfim várias informações que podem ser úteis caso você já tenha um novo caso você já tem um verso com
+ele instalado.
+Pode pular essa parte porque vai trazer novas informações mas nada que possa fazer o curso.
+Então agora vou mostrar brevemente como você pode instalar o nome e o VS Cloud e se você quiser mais
+detalhes para esse curso é voltando pra cá para instalar um da aqui no Google vou fazer uma busca por
+primeira ocorrência e aqui está o link para fazer o download da versão atual é a 12 13 0 para o caso
+na última versão é tão importante assim porque como você pode ver a otimizados é 3.0.
+Eu estou trabalhando na 12 2.0 e continua funcionando tudo normalmente.
+Se você já tiver uma versão do iPhone instalada dá pra seguir com ela.
+Como eu disse junto com Loud vem um LP então ele também está instalado aqui eu posso ouvir pela versão
+4.1 talvez a sua mais recente mais nesse ponto não precisamos nos preocupar agora vamos ao ver esse
+cult outono aqui para o Google vamos fazer a busca pelo vs.
+Cloud está ele Visual Studio Code e mais uma vez fazer o download e executar esse arquivo anexo anexo.
+Até concluir a instalação uma vez que nós já temos o Now vs Kodi instalados.
+A gente já pode criar um projeto com o site.
+Então eu virei aqui no meu console note que eu estou em um diretório normal e aqui eu vou criar a pasta
+do projeto.
+Eu vou criar o urso pois pronto para ser criado.
+Vamos entrar nela e no momento ela está vazia.
+Nada aqui dentro ainda eu já posso abrir o VS Cold tiles usando essa pasta pela instalação padrão do
+COD.
+Você já deve ter um atalho que seria esse aqui como o de ontem ele vai abri houvesse Kodi apontando
+para essa pasta
+aqui está ele vazio e vazia e você não seguiu os passos do curso de configuração do houvesse onde pode
+estar um pouco diferente.
+Deve estar mais próximo a essa versão padrão as cores as pontes também os ícones.
+Note que aqui tem mais alguns que eu fiz algumas recomendações mas não precisa se preocupar.
+A mudança é apenas visual.
+Olhe seguir essa versão se você preferir.
+Agora eu vou criar o arquivo pega de português o que é onde vai ter as configurações do projeto da gente.
+Então vou executar o comando <Inuit> Init
+executor dessa forma ele vai fazer uma série de perguntas em relação aos dados do projeto mas eu vou
+deixar tudo nas configurações padrão então menos IPTU adiciona esse parâmetro executando ou pronto.
+Ele criou o arquivo deve estar aqui também mas é ótimo ok.
+Agora vamos adicionar o site para isso como dependência para esse projeto.
+Como faremos isso aqui novamente na pasta do curso eu vou executá lo em imprimi tal e por isso não executar
+agora daqui a pouco vou trazer mais detalhes executar esse comando e o que ele vai fazer.
+Ele vai pegar a última versão do site para a versão mais recente e vai instalar aqui para mim vai demorar
+um tempo o primeiro vai baixar um script e depois ele vai fazer alguns downloads então eu retorna assim
+que ele finalizar.
+Ele já iniciou o download a versão a última versão atualmente é de 3 pontos 6 0 e agora ele está baixando
+os binários do site
+ok.
+Concluída a instalação e agora vamos como você deve executar a sua instalação.
+Eu usei dessa forma porque eu queria pegar a versão mais recente ok você não é muito bom que pegue a
+versão mais recente porque pode ter algumas diferenças em relação a alguma versão futura e que eu estou
+utilizando aqui que podem vir a te atrapalhar durante o curso.
+E como a gente ainda está em fase de aprendizado não é muito bom ter esse tipo de surpresa desagradável.
+A gente ainda não tem um domínio da ferramenta para conseguir superar alguns obstáculos.
+Então quando você foi instalado coloca além do Install sai para se coloca também a versão que vai sair
+dessa forma rouba três pontos seis outros eram um pouquinho mais da Fonte proto imprime Install Ypres
+arroba três pontos ou seis pontos zero para ficar na mesma versão que eu estou trabalhando mais à frente.
+Depois que você já conhecer bem a ferramenta aí sim você pode criar um projeto na versão mais recente
+e caso tenha algum problema você vai ter mais conhecimento mais habilidade para conseguir contorná los
+e atualizar o seu projeto a versão sendo 3 7 3 8 mudando só a partir desse número não vai ter tantos
+problemas.
+é bem provável que funcione normalmente.
+Agora se mudar esse primeiro número 4 5 por aí vai aí as chances de problema serão bem maiores então
+ou garantia por segurança vamos ficar nessa versão e depois que você já estiver confortável com sites
+aí sim vai para a versão mais recente e viu o que mudou.
+Ok.
+Bom já tem um site para isso.
+Agora vamos abril sai o preço pela primeira vez novamente vindo para cá eu dei um LS nessa pasta eu
+tenho o backup de português e está ele aí tem esse outro arquivo aqui o look do dia também apaixonou
+de modo liso onde tem todas as dependências que foram necessárias até então para abril sai preço eu
+vou executar um arquivo que está dentro da pasta de módulos então eu vou mostrar o meu eu faço aqui
+no Mac que também funciona no Linux.
+Olhem para o Windows 8.
+A diferença que eu mostro como que a gente consegue fazer isso de uma forma que funcione em todo o arquivo.
+Como eu disse está na pasta de módulos.
+Lá dentro tem a pasta um tubinho e aqui está o arquivo simples para abrir ele eu mando sai para esse
+espaço Open
+o meu primeiro execução ele está verificando o seu preço pode voltar nesse ambiente.
+E agora sim ele vai abri
+ok em abril e ele já trouxe para mim alguns testes que estão numa pasta exemplo que não existia mais
+agora existe aqui a pasta sai por dentro dela.
+Alguns diretórios e a gente vai pegando eles ao longo do curso e os testes aqui dentro dessa pasta Integration.
+E aqui está um exemplo com todos aqueles testes que vieram pra cá
+vou fechar o SAP de novo para mostrar uma outra forma que a gente configura para que caso não funcione
+no Windows é bem capaz que não tenha funcionado dessa forma então vou fechar aqui ok.
+E aqui no meu arquivo
+ISO em script eu vou criar outro script e uma vírgula aqui no final entre aspas porque isso é um arquivo
+de e aqui eu vou colocar o quando Open o que vai ser executado quando mandar rodar um open.
+Quero que ele execute o PS Open Key tanto aqui dentro da pasta scripts eu não preciso me preocupar com
+o local de módulos o bi ele simplesmente vai encontrar tudo o que está lá dentro.
+Uma vez que eu fiz isso e só vi o arquivo eu posso vir para cá novamente e imprimi Open.
+Vou colocar sai pesou para ficar mais claro preso dois pontos ou de novo
+para os dois pontos Open é o que deve acontecer a mesma coisa eu fiz agora pouco porque dessa forma
+é mais fácil que funcione em todos os ambientes
+novamente.
+O site Perez abriu depois eu entro em mais detalhes dessa tela mas cada arquivo desses possuem alguns
+testes que se explica aqui ele vai executar.
+Então vou pegar um primeiro aqui só para validar que o meio ambiente está OK
+abriu ele vai já começaram as execuções
+pronto todos os testes finalizaram com sucesso esses testes eles são muito bons para você pegar mais
+detalhes agora no início é capaz de confundir mais o que ajudar.
+Então eu vou remover essa pasta não remova a pasta Integration porque é aqui que eu sei que vão ficar
+e vou remover a pasta.
+Exemplos para não confundir a gente ao final do curso.
+Mais uma vez quando você quiser mais detalhes quiser ver outros exemplos de uso aí sim você criou outro
+projeto você já viu que o site vai colocar essa parte de exemplos para você num projeto inicial.
+Eu vou remover daqui para não confundir muito para não ficar muitos testes além dos que a gente já vai
+criar ao longo do curso.
+Ok a limpeza é para fechar.
+Só fala um pouquinho sobre a documentação do site por isso que ela é muito boa na página inicial da
+B2W quando sai para esse ponto ou documentações
+Get Started.
+Sai por
+aqui vai ter mais detalhado tudo o que a gente fez o emprego listou outros recursos como usando olhar
+ao invés do emprego enfim várias alternativas caso você tenha algum problema aqui pode ter a solução
+que vai te ajudar como adicionar o script parecido com o que eu fiz algumas variáveis de ambiente como
+CT alguma versão enfim tem vários ECU e podem te ajudar em casos de algum problema.
+Nessa parte inicial da instalação ok até a próxima aula.
