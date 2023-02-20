@@ -1,0 +1,144 @@
+<Antiga> Antes de começarmos a trabalhar de fato com eles.
+Eu gostaria de trazer alguns conceitos mais recentes do jovem escritor para tentar nivelar todo mundo.
+Não sei se você trabalha com JavaScript.
+Muitos cursos que eu tenho Background em Java se você está vindo do Java.
+Algumas coisas parecem outras nem tanto.
+Então é bom que eu dê pelo menos esses conceitos básicos claro que eu não vou esgotar o que existe daquela
+funcionalidade mas eu vou tentar dar o básico para a gente conseguir entender e evoluir nos nossos testes.
+Então nessa aula vou falar sobre meu Fuchs e na próxima vou falar sobre promoções.
+Caso você já conheça pode pular essas duas aulas porque realmente não vai ter nada de novo e mais com
+um nivelamento mesmo.
+Então vamos lá aqui está o nosso projeto.
+Como eu disse os testes ficam nessa pasta Integration.
+Então vou criar um teste agora vou arquivo chamar de erro o ponto é o padrão do nome será o nome no
+caso que erro Otto espera que o ponto de S Broto Sova esse arquivo e agora vamos ver no site.
+Se ele já percebeu que existia esse arquivo bom essa interface ela traz todos os testes que estão naquela
+pasta Integration testes.
+Se clicar no arquivo ele vai abrir a tela para execução.
+Aqui eu posso executar todos os testes e aqui eu posso trocar o browser e o electrão ou o Chrome que
+já está na minha máquina então posso escolher entre esses dois.
+DEIXAR AQUI NA LETRA o mesmo que é o padrão bom quando eu clicar em eram pontos que ele vai tentar executar.
+Você já abre aquela outra tela tela de execução onde ele está me dizendo que não encontrou testes no
+meu arquivo de trazer para cá trazer para cá para conseguir enxergar tudo que é é porque realmente não
+tem testes ainda.
+Eu vou daqui a pouco o local especificamente para mostrar essa estrutura de testes mas por ora como
+o assunto ainda não é os testes eu sai para de fato.
+Então vamos só colocar isso
+agora e aqui eu vou colocar uma função abrir e fechar os parâmetros abrir e fecha o corpo.
+Ele não vai executar nada ok.
+Agora quando eu salvará ele já encontrou um teste aqui nada agora porém nenhum comando foi executado
+durante esse teste proteções estrutura que eu queria porque a gente não vai trabalhar com os testes
+de fato eu quero passar agora os conceitos da função.
+Então eu vou colocar aqui em baixo agora inicialmente uma função ou função mais básica que seria um
+chão ou uma soma somar esses dois parâmetros a e b.
+Então ela vai tornar a mais b para a gente vê essa função se mal executada.
+Olhe para outro log
+4 pronto vou salvar.
+E note que eu sai pois ele fica monitorando esse arquivo toda vida que eu salva ele vai executar os
+testes esse arquivo que eu salva ele automaticamente já executa porque ele disse que um teste passou
+por isso aqui que não fez nada na verdade tome muito cuidado com esse conceito de teste passou o teste
+passar e dizer que ele executou tudo que tinha dentro e não teve nenhum erro.
+Então não tem essa confiança a talvez já aqui está tudo funcionando não.
+Ele está dizendo é só aqui o que estava lá dentro não deu erro.
+No caso aqui como não tinha nada não testou nada não teve nenhum erro e por isso que estava aqui e se
+tivesse alguma falha aqui é o tempo de execução bom não apareceu nada do que eu pedi isso porque eu
+pedi para imprimi no logo do console para ver o log eu vou clicar com o botão direito aqui e pedir para
+inspecionar um elemento pronto ele já mostrou a ferramenta de inspeção.
+Eu prefiro que ela fique aqui em.
+Pronto ainda não está aparecendo na verdade aqui é o código HTML dessa página.
+Mas se eu vir aqui em console aí sim eu tenho aquela impressão.
+O 5X aumentou aqui
+então essa é uma função mais básica que simplesmente somar com b retorna a mais bem eu imprimi aqui
+uma variação da construção dessa função seria eu comentei isso aqui
+eu vou criar uma função anônima simplesmente Function e sabendo parâmetros a e b e retornando novamente
+a mais b agora eu vou ter problema porque só ele não sabe mais o que soma então essa função anônima.
+Eu vou jogar em uma variável chamada agora sim ela vai reconhecer novamente teremos o 5 impresso.
+Ok esse é o básico de uma função.
+Agora chegou no conceito que eu estou querendo apresentar que é a fungos ou seja uma função que utiliza
+uma certa anotação vai ficar um pouquinho diferente mas o uso dela é praticamente o mesmo.
+Não vou comentar novamente e eu vou criar uma função da forma mais completa possível com consiste soma
+normalmente em relação ao conceito de quem trabalhou há muito tempo para trabalhos em JavaScript que
+vinham no barco.
+Agora a recomendação é variáveis que não serão alteradas ou seja constante tipo uma função ou função
+ou não vou alterar o valor dela.
+Não posso colocar uma conste mas se fosse uma variável que eu pretendo alterar o valor dela eu coloco
+em lote.
+Nesse caso se soma vai receber inicialmente eu colocou os parâmetros então a e b é para definir que
+ela é uma função sem colocar aqui ou function.
+Eu vou utilizar essa nova sintaxe que é o erro funcho minha função é igual e o sinal de maior como essa
+fonte ela tem língua.
+E acaba juntando tudo para deixar mais legível pode confundir um pouquinho então eu vou colocar primeiro
+ela separada e depois eu junto.
+E o sinal de igual.
+E depois o sinal de maior toque não tem esse espaço do meio.
+Aí por conta da minha fonte na hora que eu junto ele já meio o que transforma em um símbolo só OK.
+Pronto.
+Uma vez que eu fiz isso.
+O restante é a mesma coisa nem a mais b vai funcionar exatamente igual e aqui temos cinco homens pronto.
+Essa é uma função da forma mais básica agora vamos conhecer algumas variações dela
+bom essa função.
+Ela simplesmente pega dois valores e retorna a soma deles.
+Então eu posso fazer de uma forma mais reduzida mais uma vez conste só uma recebe.
+Eu vou colocar os parâmetros a e b Colocar o erro é que eu já digo que ela vai retornar a mais b.
+Pronto.
+Isso também continua funcionando.
+O quê.
+O que está aqui.
+Depois do erro ele já entende como se fosse o retorno e aí pronto ele vai pegar ai o bicho vai retornar
+a soma B um erro muito comum trabalhando com erro e quando a gente faz dessa forma ou se soma recebe
+a e b de novo erro.
+Agora eu vou abrir a chave e coloco aqui o a mais b Se eu fizer isso eu vou ter um definido porque o
+que eu retorne ele só é implícito nessa formação aqui quando e exatamente depois da Apple já colocou
+a expressão como eu coloquei um bloco ou coloquei aqui entre Chaves e eu preciso explicitar o Caetano
+para ele tb tenho Ritalina não funciona aqui está já está funcionando normalmente
+bombástico o que eu queria apresentar do Funchal e esse mais ainda tem algumas variações é uma diferença
+que vai ser crucial pra gente.
+Então eu segui um pouquinho mais só para aproveitar que eu já estou aqui mesmo e vou criar um soma agora
+vamos supor que é uma soma que é apenas um parâmetro.
+Então parâmetro seria o e ele vai retornar a mais
+quando o salvar.
+Aqui temos o 2 mais uma vez que eu tenho apenas um parâmetro eu posso fazer dessa outra forma aqui eu
+não preciso colocar entre parênteses isso aqui já é o suficiente e vai me dar o mesmo resultado que
+é o 2.
+Essa opção novidade dos parentes só ocorre quando tem um parâmetro quando tem 2.
+Não existe essa opção de se comentar aqui de novo aqui e retiro aqui
+e se não tivesse parâmetro algum eu também preciso ao local parentes.
+Mesmo assim Brasil 5+5 por exemplo.
+Olha que mandar sou mãe.
+Isso porque ele desconsiderou os meus parâmetros ok essas são algumas variações que eu tenho em relação
+ao Funchal assim como a diferença em relação à formação com além dessa essa diferença visual e que faz
+com que esse bloco fique muito mais enxuto do que esse daqui.
+A gente também vai ter uma diferença durante a execução dessa função.
+Em alguns casos bem específicos que a gente até vai pegar ao longo do curso que é o escopo duas vezes
+então para mostrar isso.
+Eu vou criar um teste mais uma vez o hit
+um trecho com função
+e aqui eu vou colocar a função e no corpo dela eu vou colocar um console e logo a gente saber a função
+e logo em seguida Eu também vou colocar uma vez o diz é referência para o escopo que ela está sendo
+executada.
+Então vamos lá vou salvar
+e aqui está na função ele pegou esse contexto que a gente não precisa entrar muito nesse detalhe e simplesmente
+foque nisso.
+Não foi um show ele encontrou um contexto Ora se eu fizer essa mesma execução estou aqui usando uma
+no chão ao invés da fundação
+o teste aqui não estaremos só
+um show.
+Ele pegou o contexto e no erro ele não pegou o contexto.
+Por quê.
+Quando a gente utiliza o Funchal ou depois ele referencia a quem invocou ou seja ele disse.
+Foi nesse contexto aqui dos testes então ele acabou pegando o contexto aqui direitinho.
+Porém quando o ano é o Funchal o desenho não varia ele fica no escopo mais alto que no caso aqui era
+vazio ora isso que nós tivemos ou não define.
+Bom essa discussão é grande eu não vou entrar muito em detalhes em relação a isso eu não sou a melhor
+pessoa para fazer isso mas eu queria mostrar essa diferença na maioria dos casos a gente vai poder trabalhar
+utilizando a errou.
+Eu prefiro utilizar até pela sintaxe que fica bem mais enxuta ora inteira em alguns casos durante o
+curso que a gente vai ter problemas.
+E nesse ponto específico a gente vai precisar alterar o Funchal no momento correto vou mostrar aqui
+e por causa disso o que é bom esse era o básico que eu queria passar de carro Funchal mais uma vez não
+encontrei tudo que existe sobre o assunto.
+Se você quiser mais detalhes recomendo que dê uma pesquisada fazer um básico de JavaScript principalmente
+do script.
+6 Procure por esses seis vai ajudar também vai dar um bom background para poder trabalhar com os testes
+o que foram os conceitos do teste a gente precisa também dos conceitos da linguagem.
+Então se você puder também faça uma revisão de como escrevo isso ok e até a próxima aula compromissos.
