@@ -1,0 +1,216 @@
+Mais um conceito do jovem que ele busca eu queria trazer é vai ser importante para a gente.
+E o conceito de promessas.
+Então voltando para cá antes mesmo de falar da promoção em si vou dar um contexto então vou criar um
+outro teste.
+Eu nesses pontos PEC ponto de
+é o que eu fizer aqui.
+Note que ele não está vendo nada ainda.
+Por quê.
+Porque essa janela foi aberta para monitorar o arquivo.
+R O ponto espécie então ele não vai enxergar nada além daquele arquivo.
+Não vou clicar aqui para ele voltar para os trechos.
+Ou seja ele veio para cá e quando eu clicar em promoção aí sim a janela vai ser recarregada e agora
+sim inspecionando as alterações nesse arquivo que vai ter um erro logo de cara por causa dessa besteira
+que eu escrevi.
+Então já sabemos que um arquivo vazio ele vai reclamar que não tem testes.
+Ao criar uma estrutura bem simples
+sem testes ainda é agora que eu vou colocar uma pra.
+Talvez agora ele entende não vai executar nada mais que eu quero ou ainda não vai ser dentro de um teste
+então vamos lá.
+Vamos supor que eu possua um método mais gigante sofrem
+usando o erro e ele vai me retornar o valor deles.
+Pronto.
+Aqui está o método
+e vai ter um sistema que vai utilizar esse método.
+Então vou criar aqui
+que é função do sistema.
+Inicialmente eu vou dizer que ele está iniciando.
+Não é só um log.
+Agora vou pega esse valor não.
+Nosso método
+é Vou imprimir e vou colocar aqui entre crase que eu consegui fazer a interpolação da variável então
+e agora sim alocado
+e ao final ele vai dizer aqui finalizou.
+Pronto.
+Ok nada não funciona ainda porque esse método ainda não foi invocado então simplesmente chamarei aqui
+embaixo.
+Pronto.
+E aqui está exatamente como era esperado.
+Primeiro ele deu o enfeite.
+Em seguida ele pegou esse valor pegou o valor 10 ele imprimiu algo a 10 e ponto final ele encerrou aqui
+em que analisou tudo em relação a essa interpolação também a coisa nova tinha aproveitado para mostrar
+uma forma mais antiga de fazer isso seria assim
+o resultado vai ser o mesmo quem
+essa linha se comenta aí voltamos ao que estava antes.
+Bom até aqui tudo bem.
+Então agora eu vou explicar um pouquinho mais desse método porque vamos supor que agora esse método
+ele não vai ter a resposta tão fácil como está.
+Dessa forma ou seja eu já sei que eu vou simplesmente retornar.
+Vamos supor que ele precisaria fazer uma consulta no banco de dados fazer uma consulta com a API fazer
+algo que demora bastante e o Javascript principalmente o nome.
+Ele ficaria travado se eu pedir para todo parar enquanto eu espero o retorno desse 10.
+Então aqui existe um conceito de sincronicidade muito grande.
+Quando eu fizer uma solicitação de um recurso que é demorado é uma boa prática que eu faça com que essa
+resposta seja assíncrona ou seja eu deixe que o restante da aplicação continue funcionando.
+E quando a resposta vier aí sim ela será tratada de acordo ainda está um pouco chato mas eu vou tentar
+exemplificar aqui.
+Pra começar vamos alterar esse nosso método GET salvem.
+E agora ele vai ficar um pouquinho mais complexo bom pra ele ficar mais lento eu teria que fazer uma
+consulta e no banco Ok pra simplificar nossa vida eu vou simplesmente colocar um terremoto então vou
+usar esse método aqui o site tem malt em que a função de dentro dele poderia ser uma função que estou
+usando a r a função que vai ter aqui.
+Ele simplesmente vai se tornando se é para ficar um pouquinho diferente mas esse método ele vai demorar
+um segundo o caso aí Mil milissegundos pra responder tudo que eu mudei foi nesse método aqui continua
+igual simplesmente está consumindo o valor desse método ele vai responder.
+Então vamos ver como será essa execução.
+Foi bem rápida.
+De cara já deu pra ver que ele não esperou porquê para isso aqui a resposta teria que demorar no mínimo
+um segundo.
+E aqui está dizendo que demorou 0 ponto 18 então eu vi que ele não esperou.
+Então ele fez o hit ele solicitou essa variável Ok ele não esperou o retorno dela então ali mandou o
+valor dessa variável que no momento como não tinha resposta ainda era anda e aí sim finalizou.
+Para deixar isso um pouquinho mais claro Eu vou colocar aqui pra ele dizer que vai responder e responder.
+Agora só
+finalizou veja nada Sergipe já desistiu da resposta já finalizou e um tempo depois é que o método começou
+a dizer eu vou responder agora e é por isso que está vindo a defender
+então como que a gente consegue trabalhar com esse conceito de sincronicidade desenhando um pouquinho
+aqui está a nossa linha do tempo.
+Aqui veio o hit
+nesse ponto e li solicitou o valor
+toque como está síncrono.
+Ele não vai obter o resultado logo aqui como se tivesse criado um outro partido daqui.
+E esse valor foi buscado não importa como é qual foi o problema logo em seguida.
+Eu já tentei logar o valor da variável que eu ainda não tinha veja se eu pudesse de alguma forma colocar
+esse blog um pouco mais para baixo e seria mais ou menos quando eu tivesse essa resposta.
+Aí sim o meu logo ia retornar algum valor.
+Ok então como que a gente consegue trabalhar melhor com esse conceito de sincronicidade vamos fazer
+mais uma implementação aqui nesse método mais uma vez eu vou trazer um conceito inicial antes mesmo
+de chegar na prova que é o caubói que se jogou vou pedi uma função de aqui colocar aqui declarar essa
+função e quando ela estiver pronta aí ela vai chamar a função
+Black enviando o valor 12 o que é que está mudando aqui.
+Quando eu pedi para executar essa função eu não quero mais uma resposta eu quero que a função que eu
+recebi por parâmetro ela seja executada.
+A gente já viu que nas funções quando tem algo apenas um parâmetro eu posso deixar dessa forma.
+E agora como que eu vou consumir esse valor aqui dentro do sistema mais uma vez.
+E agora o gato só afim dele não está respondendo nada que não está retornando nenhum valor.
+Então não preciso mais fazer isso.
+E o que é que eu vou fazer.
+Eu vou dizer agora que quando eu chamo essa função eu também tenho que enviar a função que será executada
+quando ela estiver pronta então eu vou colocar aqui uma função o couber que ela está enviando um parâmetro.
+Então a função que eu colocar aqui dentro ela deve receber um parâmetro que é justamente para pegar
+esse valor.
+Então vou colocar aqui o valor são
+e eu vou simplesmente pedir para ele imprimir
+esse valor aqui.
+Vou colocar exatamente isso
+o nome da área.
+Agora some isso aqui não precisa mais.
+Vamos ver se agora funciona na verdade não funcionou pq esqueci de colocar o console logo começou logo
+e agora sim coloque esse texto no console lado mais uma vez
+veja o que aconteceu em IT.
+Aqui está ele logo em seguida ele chamou o método de acção bem parecido com esse ponto aqui.
+Só que como a gente viu ele vai ser processado em uma outra linha do tempo ele não fica mais preso a
+essa linha e o processo não pára.
+Vamos supor que eu tenha várias atividades para fazer.
+Quando chegou aqui ele já sei vai fazer outra coisa quando eu tiver esse resultado ele vai retornar.
+Ou seja como tinha algo alguém aqui que eu não deixei amarrado numa uma forma síncrona então ele continuou.
+Ele imprimiu em gente ele chamou o garoto só enfim que foi resolver da forma dele e a gente seguiu em
+frente.
+Caiu aqui no.
+Quando esse método foi finalizado.
+Aí sim ele chamou a função de aqui que é exatamente essa daqui.
+Ela recebeu o valor da Metro 12 e colocou aqui quando ela executou aqui algo a 12 veja.
+Ele conseguiu pegar o valor a gente conseguiu voltar a uma forma em que eu consegui receber um valor
+que vem de forma assíncrona na minha função.
+Um ponto que incomoda é porque onde ele está sendo impresso onde dou valor.
+Então se o que ele realmente deve está síncrono em relação a esse valor então também devo colocar esse
+índice dentro da função pode esperar até que tudo seja resolvido para só depois vi o aqui fazendo bem
+rápido bastaria
+eu fazer isso aqui na 9 que eu salvo erro tem algo errado isso aqui.
+Esse plugue ele ajuda bastante.
+Vê essa questão de duas chaves colchetes que estão na ordem correta pronto na hora que eu salvo aí sim
+agora nós temos todo mundo em IT.
+Só que já pegando o valor de onde deveria estar.
+Bom na verdade foi invenção minha não é obrigatório que eu esteja aqui ele pode segui da forma que quiser
+o que importa é que quem precisa daquele valor síncrono realmente espere por ele.
+Voltando para o que estava antes de eu sei o quê.
+Essa é uma forma mais antiga utilizando a estratégia de cobre que ora eu cobrei que ele causa alguns
+problemas principalmente quando você precisa de muitas coisas assim como desenhadas sei que vai ter
+um cowboy aqui que chamou de caubói aqui que chamou de cowboy e ficam a é muito grande que é conhecida
+como caubói.
+Então pensando em simplificar mais isso surgiu o conceito que o assunto Dassault aqui são as promessas
+então vou faturar mais uma vez desse método.
+E agora nós vamos utilizar promessas então mais uma vez isso o garoto sofrem não recebe parâmetros e
+o que ele vai retornar agora vai ser uma promessa então vou colocar aqui meu próximo essa promessa ela
+vai ter uma função e ela precisa que dois parâmetros vai ser resolvida e o Project pelo próprio nome
+já dá pra saber o que é que eles fazem.
+Usou e vai ser uma função que vai ser invocada quando a promo se finalizar quando ela for resolvida
+e o widget vai ser invocado quando tiver algum problema na promoção ou seja como digo que ocorreu um
+problema.
+Então tá aqui nós temos parâmetros vou colocar lá dentro.
+Dilma errou ok e eu vou colocar esse método aqui dentro.
+Só que ao invés de chamar o combate Eu vou chamar esse método pois mais uma vez vamos ao 13 em pronto
+essa estrutura de uma promessa.
+Vamos agora ver como que o sistema consome aprovamos.
+Vamos manter o índice e agora no gato.
+Novamente ele está retornando.
+Falou no caso aqui uma promoção.
+Então deixe me tira isso aqui para a gente aproveitar depois
+vamos lá.
+O gato sofre.
+Ele está retornando um valor que eu vou colocar aqui.
+Eu sei já sei que é uma promessa.
+é o que eu vou utilizar para aguardar até que essa promoção seja resolvida vai ser ou então promo pontuou.
+Veja isso aqui.
+Esse vem ele vai aguardar até que a promoção seja resolvida ou seja até que o método resolva e seja
+invocado.
+Então uma vez que vai cair aqui no vem uma vez que o isopor foi invocado o Jet não foi utilizado aqui
+mais é que está bem sim.
+Se tivesse alguma forma de causar algum erro ao invés de o isopor nessa tratativa chamaria o site.
+Então aqui no vem eu vou pegar o valor do roubo ou seja essa variável 13 vou chamar como some novamente
+e isso é uma função
+e agora sim eu vou trazer esse valor pra cá só logo some isso só vamos executar mais uma vez e Mid End
+e receber o valor.
+Aquela questão de deixar o Wendel assim que mandou é só trazer aqui proximo aqui vai funcionar também
+13 e onde não mesmo vou deixar aqui fora bom dessa forma isso está funcionando aí pegou a promoção e
+veio repartindo esse método aqui está ela colocou nessa variável esperou que ela fosse resolvida e executou
+a função logo após que ela estava completa.
+Eu posso simplificar um pouquinho mais fazendo dessa forma eu chamo Guedes só enfim e logo em seguida
+eu já dou um ponto.
+Vai funcionar igual pronto.
+Esse é o conceito de promoção.
+Veja aqui é bem parecido com o que está aqui já mostrei também como que eu conseguiria sincronizar esse
+blog ou método é o principal motivo de a gente está precisando ver essa caixa de promoções aqui no curso
+antes mesmo de ver o site crescer porque ele utiliza sempre toda a vida que eu peço para ver algum elemento
+da tela que eu peço para fazer qualquer alteração.
+Aquilo é uma promessa.
+Ele tem uma forma de gerenciamento peculiar ele tem uma forma própria de trabalhar a gente vai utilizar
+o bem mas ele recomenda que a gente utilize as promoções nos sites da forma que ela foi projetada e
+o que ele faz alguns chacais ele tem um ciclo de vida próprio que se a gente tentar sai muito da forma
+de uso dele.
+A gente vai acabar se perdendo
+então existe até um outro conceito que veio depois a promoção na verdade a promoção continua sendo utilizado
+mais ele deixa isso aqui um pouquinho mais simples tipo o eu não preciso que é o conceito do assim que
+é hoje eu já estou aqui já apresentei me o que o histórico das comunicações assim inclusive eu vou aproveitar
+para mostrar algo assim que é onde mais eu vou deixar bem claro que a documentação do sai prejuízo para
+a gente não utilizassem que é onde eu sei.
+Isso aqui vai ser apenas a título de curiosidade.
+Então vou fazer mais uma vez aqui o garoto só vai continuar retornando assim que é onde ele trabalha
+com promessas ele apenas deixa o uso dela mais simplificado e aqui na definição do método eu digo que
+esse método vai ser assíncrona
+e aqui eu vou declara a variável some que vai receber o resultado do São
+e agora eu posso simplesmente usar como se fosse um método síncrono te ajudou em eu peço para aguardar
+até que o gato some seja resolvido é o valor que foi resolvido por essa variável e aqui vai seguir como
+se fosse um método síncrono qualquer.
+Quando eu só
+em 13 ok.
+Assim que a gente deixa as coisas bem mais simples olhem para o caso do site pois a gente não vai utilizar
+porque ele faz algum gerenciamento se ele tem um ciclo de vida tem uns conceitos de rituais que a gente
+vai ver ao longo do curso e para isso a gente tem que deixar as promessas do jeito que ele quer.
+O que é bom para si.
+O básico é isso.
+Mais uma vez não é um curso completo de promoção não é um curso completo de Funchal.
+Pesquise e se quiser mais detalhes mais porque a gente vai fazer aqui no curso.
+Isso resolve.
+Ok.
+Até a próxima aula.
