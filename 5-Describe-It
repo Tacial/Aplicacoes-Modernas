@@ -1,0 +1,89 @@
+Nessa aula vamos dar mais um passo em direção ao uso do Simples.
+Não é dessa vez ainda que a gente vai começar a abrir na cassação dos elementos.
+Quem já conhece a minha metodologia sabe que é um passo de cada vez até a gente está apto a realmente
+pegar só aquele conceito e já tendo o alicerce dos conceitos anteriores então nessa aula a gente vai
+estruturar o nosso arquivo de especificação.
+Os testes vão mostrar como é que funciona o descreve como é que funciona o hit o hit.
+A gente até já utilizou nas aulas anteriores só para não ter problema.
+Então vamos começar por ele voltando para cá.
+Aqui Integration eu vou pedir um novo arquivo que vou chamar de descreve.
+Ponto espera que a ponto de mandar fechar os outros
+eu só vou aqui.
+Nada vai acontecer porque ele está monitorando esse outro arquivo aqui de promessas então vou fechar
+essa tela e vou pedir para executar o disco
+meu erro não encontrou nenhum teste.
+Por quê.
+Porque os testes aumentar isso aqui é mais
+os testes eu descrevo em métodos de
+notas que eu venci com ele tenta me ajudar mas ele não sabe muito bem quem não conhece esses comandos
+então vamos ajudá lo a nos ajudar aqui na primeira linha.
+Eu vou colocar três barras espaço e vou escrever forenses
+Tapes igual sai por isso e aqui eu fecho pronto com essa linha o verso quando vai começar entendi que
+eu estou trabalhando com um site e ele vai conhecer e ele vai me dão as ajudas mais próximas da API
+do site.
+Ou seja quando eu colocar o item novamente ele já sabe que existe o hit e que ele descreve um caso de
+teste ok e também que ele é do rock o sai.
+Ele vem com alguns famosos embutidos que são moca o Chay está mais para ajudar a gente nessa estruturação
+dos testes e também nas assertivas que dá no espólio.
+Já vai ser o assunto da próxima aula.
+Então vamos lá.
+Como já falei o hit dá o escopo de um teste então vamos criar um hit aqui um primeiro parâmetro eu vou
+dar o nome desse teste que vou chamar aqui de teste externo
+e o segundo parâmetro seria a função que vai realmente conter o teste fungos que já vimos e quando eu
+salva isso ele já vai reconhecer que existe um teste e o exame que nada foi executado porque o bloco
+aqui está vazio ou seja ok.
+Esse é o item os testes eu vou colocar aqui dentro o corpo do teste.
+A outra estrutura que eu queria mostrar essa aula e outros Caymmi o descreve ele serve para agrupar
+testes e todos que eu coloquei aqui escrevi mesmo sintaxe.
+Primeiro parâmetro vai ser o nome que vai definir esse grupo descreve.
+Vamos chamar isso de grupo testes e o segundo parâmetro é uma função que vai conter todos os testes
+que eu vou criar por esse grupo pronto só vá eu já tenho um teste que seria um teste externo.
+Eu tenho um grupo que está vazio então aqui dentro eu posso criar testes vou pegar isso aqui para facilitar
+nossa vida colocar aqui dentro e simplesmente será um teste interno para outro aqui nós já temos dois
+testes aqui está dois testes.
+Eu tenho um teste este ano seja a raiz do meu arquivo e eu tem um teste interno que está dentro de um
+grupo que está escrito errado
+esse é o básico do IT e de outros só que dentro de um grupo eu posso ter outros grupos então aqui
+posso criar outro descreve sobre
+ele pode agrupar testes mais específicos
+aqui dentro eu posso colocar
+esse teste
+e aqui eu tenho um grupo que tem um teste dentro do grupo diretamente um ou outro grupo posso criar
+inclusive mais que um grupo dentro de grupos não tem limite para isso na verdade e vai até a imaginação
+da forma que está organizado sua documentação.
+Então um grupo interno eu tenho dois grupos aqui dentro e organizado da forma que eu quiser utilizando
+essa sintaxe outro conceito que eu queria trazer nessa aula é a questão do Skype Skip.
+Na verdade vamos supor que eu vou querer executar apenas esse teste aqui.
+Estratégia externa.
+Então eu posso pedir para que inicialmente eu apoio só para esse teste aqui para que esse teste não
+seja executado seja específica teste.
+Note que ele está diferenciado aqui porque ele está indicando que o teste não foi executado inclusive
+aqui na contagem.
+Eu posso ver também.
+Ele está dizendo que três testes finalizaram com sucesso.
+Eu falei que insucesso sucesso não é esse caso e não teve nenhum erro durante a execução.
+Então um dois três.
+Nenhuma falha proximal a gente vai começar a ver falhas.
+é um teste que não foi executado que é exatamente esse daqui.
+Só que eu posso também da ex-equipe um grupo completo
+ou seja tudo o que estava dentro dele não foi executado apenas o teste externo que foi executado outra
+forma que eu poderia fazer isso também seria pedir para que apenas esse teste fosse executado então
+é ele não chega mais nem a aparecer como isso que ele realmente vai apenas para esse teste.
+Um outro detalhe em relação ao UOL é por quê.
+Veja aqui tem um nome e aqui eu vou colocar um outro olhar se eu fizer isso ele acaba pegando o último
+ali que ele encontrar.
+Ou seja não teria como ser Only 2 então ele vai passear o arquivo por completo e no final ele vai determinar
+quem é realmente o que ele vai executar.
+E seria o último que ele encontrou.
+Isso que as equipes já funciona melhor o conselho da ex-equipe tem dois pontos distintos e ele vai pegar
+esses dois sejam o trecho externo e o teste interno os testes que estão dentro do grupo eles foram executados
+e inclusive esse um ex-equipe aqui não mudam isso opinou.
+O grupo inteiro
+ele também vai ficar de fora.
+E se eu der um Only nesse cara
+vai diretamente para ele ok.
+Isso vai ser bastante útil pra gente.
+Quando a gente vinha trabalhando há alguns meses ou seja quando tiver muito método e tiver focando em
+um método específico para ajudar durante o desenvolvimento a gente vai ficar muito brincando com isso
+explicou Molly.
+Para focar a nossa execução ser mais rápida ok então até a próxima aula.
